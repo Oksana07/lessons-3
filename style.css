@@ -1,0 +1,65 @@
+.container{
+  width: 1000px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0px auto;
+}
+
+body{
+  background-color:azure;
+
+
+}
+
+section{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+li{
+  list-style: none;
+}
+
+.header{
+  background-color: bisque;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+  }
+
+
+.header-list{
+  display: flex;
+  gap: 30px;
+}
+
+.box{
+  display: flex;
+  height: 200px;
+  /* background-color: gray; */
+
+  overflow: auto;
+}
+
+.box::-webkit-scrollbar{
+  width: 100px;
+  background-color: rgba(255, 255, 255, 0.178);
+}
+
+img{
+position: sticky;
+top: 50%;
+
+  width: 50px;
+  object-fit: contain;
+  object-position: top;
+  padding-top: 20px;
+  margin-right: 20px;
+}
+
+
+
+
+
+
+
